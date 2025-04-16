@@ -6,7 +6,7 @@ Este repositorio contiene la resolución de varios ejercicios de práctica en Ja
 
 En el proyecto vas a encontrar dos tipos de ejercicios:
 
-- **Ejercicios Java Script:** Problemas propuestos en un archivo guía, con ejercicios básicos/intermedios como alertas, prompts, condiciones, etc.
+- **Ejercicios Java Script:** Problemas propuestos, con ejercicios que contienen alerts, prompts, condiciones, etc.
 - **Ejercicios extras de PSeInt:** Los volví a hacer pero ahora en JavaScript, para comparar cómo se implementa la lógica en un lenguaje real de programación.
 
 ## 🧪 Herramientas usadas
@@ -21,8 +21,9 @@ Podés ejecutar los archivos `.js` de dos formas:
 - Desde el navegador, usando etiquetas `<script>` en un HTML
 - Desde la terminal con Node.js:
 
-✍️ Autor
-Ignacio Nazar
+## 📝 Autor
+
+- Ignacio Nazar
 
 🚀 ¿Cómo utilizar este proyecto?
 Puedes clonar el repositorio y revisar todos los ejercicios.
