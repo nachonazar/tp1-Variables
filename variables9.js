@@ -1,4 +1,4 @@
-const frase = prompt("Ingrese una frase (maximo 10 caracteres)");
+const frase = prompt("Ingrese una frase (maximo 10 caracteres)").toLowerCase();
 let vocales = "";
 if (
   frase.charAt(0) === "a" ||
@@ -7,7 +7,7 @@ if (
   frase.charAt(0) === "o" ||
   frase.charAt(0) === "u"
 ) {
-  vocales += frase.charAt(0) + "";
+  vocales += frase.charAt(0);
 }
 if (
   frase.charAt(1) === "a" ||
@@ -16,7 +16,7 @@ if (
   frase.charAt(1) === "o" ||
   frase.charAt(1) === "u"
 ) {
-  vocales += frase.charAt(1) + "";
+  vocales += frase.charAt(1);
 }
 if (
   frase.charAt(2) === "a" ||
@@ -25,7 +25,7 @@ if (
   frase.charAt(2) === "o" ||
   frase.charAt(2) === "u"
 ) {
-  vocales += frase.charAt(2) + "";
+  vocales += frase.charAt(2);
 }
 if (
   frase.charAt(3) === "a" ||
@@ -34,7 +34,7 @@ if (
   frase.charAt(3) === "o" ||
   frase.charAt(3) === "u"
 ) {
-  vocales += frase.charAt(3) + "";
+  vocales += frase.charAt(3);
 }
 if (
   frase.charAt(4) === "a" ||
@@ -43,7 +43,7 @@ if (
   frase.charAt(4) === "o" ||
   frase.charAt(4) === "u"
 ) {
-  vocales += frase.charAt(4) + "";
+  vocales += frase.charAt(4);
 }
 if (
   frase.charAt(5) === "a" ||
@@ -52,7 +52,7 @@ if (
   frase.charAt(5) === "o" ||
   frase.charAt(5) === "u"
 ) {
-  vocales += frase.charAt(5) + "";
+  vocales += frase.charAt(5);
 }
 if (
   frase.charAt(6) === "a" ||
@@ -61,7 +61,7 @@ if (
   frase.charAt(6) === "o" ||
   frase.charAt(6) === "u"
 ) {
-  vocales += frase.charAt(6) + "";
+  vocales += frase.charAt(6);
 }
 if (
   frase.charAt(7) === "a" ||
@@ -70,7 +70,7 @@ if (
   frase.charAt(7) === "o" ||
   frase.charAt(7) === "u"
 ) {
-  vocales += frase.charAt(7) + "";
+  vocales += frase.charAt(7);
 }
 if (
   frase.charAt(8) === "a" ||
@@ -79,7 +79,7 @@ if (
   frase.charAt(8) === "o" ||
   frase.charAt(8) === "u"
 ) {
-  vocales += frase.charAt(8) + "";
+  vocales += frase.charAt(8);
 }
 if (
   frase.charAt(9) === "a" ||
@@ -88,6 +88,6 @@ if (
   frase.charAt(9) === "o" ||
   frase.charAt(9) === "u"
 ) {
-  vocales += frase.charAt(9) + "";
+  vocales += frase.charAt(9);
 }
 document.writeln("Vocales encontradas: " + vocales);
